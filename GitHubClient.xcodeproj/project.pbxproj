@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CB30886527133997ABB50C /* libPods-GitHubClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5118D3D15CC4026C0F4254 /* libPods-GitHubClient.a */; };
+		D05359431B9FC24A00B9A9F9 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D053593F1B9FC24A00B9A9F9 /* MBProgressHUD+MJ.m */; };
+		D05359441B9FC24A00B9A9F9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D05359401B9FC24A00B9A9F9 /* MBProgressHUD.bundle */; };
+		D05359451B9FC24A00B9A9F9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D05359421B9FC24A00B9A9F9 /* MBProgressHUD.m */; };
+		D06FA51E1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D06FA51D1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.m */; };
+		D09D946F1B95A3420029F83F /* ZLUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D946C1B95A3420029F83F /* ZLUserController.m */; };
+		D09D94721B95A35E0029F83F /* ZLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D94711B95A35E0029F83F /* ZLUser.m */; };
+		D09D94761B9688110029F83F /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D94751B9688110029F83F /* ZLTableView.m */; };
+		D09D94981B96E2C20029F83F /* ZLUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D94971B96E2C20029F83F /* ZLUserCell.m */; };
+		D09D94A21B96E9180029F83F /* ZLTableViewConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D94A11B96E9180029F83F /* ZLTableViewConst.m */; };
+		D0B371721B9C03FE00F5E930 /* ZLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B371711B9C03FE00F5E930 /* ZLNetwork.m */; };
+		D0E0439C1B957CFD00151CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0439B1B957CFD00151CFA /* main.m */; };
+		D0E0439F1B957CFD00151CFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0439E1B957CFD00151CFA /* AppDelegate.m */; };
+		D0E043A71B957CFD00151CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E043A61B957CFD00151CFA /* Images.xcassets */; };
+		D0E043B61B957CFD00151CFA /* GitHubClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E043B51B957CFD00151CFA /* GitHubClientTests.m */; };
+		D0E043CE1B95878200151CFA /* ZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E043CD1B95878200151CFA /* ZLTabBarController.m */; };
+		D0E043D41B9587EE00151CFA /* ZLRepositoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E043D31B9587EE00151CFA /* ZLRepositoryController.m */; };
+		D0E043D71B9587FF00151CFA /* ZLMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E043D61B9587FF00151CFA /* ZLMessageController.m */; };
+		D0E043DA1B958C5700151CFA /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E043D91B958C5700151CFA /* ZLNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E043B01B957CFD00151CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E0438E1B957CFC00151CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E043951B957CFD00151CFA;
+			remoteInfo = GitHubClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D5118D3D15CC4026C0F4254 /* libPods-GitHubClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD49D095752B74C31D7F5F /* Pods-GitHubClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient.debug.xcconfig"; sourceTree = "<group>"; };
+		D053593E1B9FC24A00B9A9F9 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		D053593F1B9FC24A00B9A9F9 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		D05359401B9FC24A00B9A9F9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		D05359411B9FC24A00B9A9F9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D05359421B9FC24A00B9A9F9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D06FA51C1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZLSwizzle.h"; sourceTree = "<group>"; };
+		D06FA51D1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZLSwizzle.m"; sourceTree = "<group>"; };
+		D09D946B1B95A3420029F83F /* ZLUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUserController.h; sourceTree = "<group>"; };
+		D09D946C1B95A3420029F83F /* ZLUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUserController.m; sourceTree = "<group>"; };
+		D09D94701B95A35E0029F83F /* ZLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUser.h; sourceTree = "<group>"; };
+		D09D94711B95A35E0029F83F /* ZLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUser.m; sourceTree = "<group>"; };
+		D09D94741B9688110029F83F /* ZLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableView.h; sourceTree = "<group>"; };
+		D09D94751B9688110029F83F /* ZLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableView.m; sourceTree = "<group>"; };
+		D09D94961B96E2C20029F83F /* ZLUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUserCell.h; sourceTree = "<group>"; };
+		D09D94971B96E2C20029F83F /* ZLUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUserCell.m; sourceTree = "<group>"; };
+		D09D94A01B96E9180029F83F /* ZLTableViewConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableViewConst.h; sourceTree = "<group>"; };
+		D09D94A11B96E9180029F83F /* ZLTableViewConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewConst.m; sourceTree = "<group>"; };
+		D09D94A91B97B92C0029F83F /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		D09D94B01B97E9CE0029F83F /* GitHubClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GitHubClient-Prefix.pch"; sourceTree = "<group>"; };
+		D0B371701B9C03FE00F5E930 /* ZLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNetwork.h; sourceTree = "<group>"; };
+		D0B371711B9C03FE00F5E930 /* ZLNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNetwork.m; sourceTree = "<group>"; };
+		D0B3717A1B9C122D00F5E930 /* ZLURI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLURI.h; sourceTree = "<group>"; };
+		D0C1B4B81B993B940027E66F /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		D0E043961B957CFD00151CFA /* GitHubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0439A1B957CFD00151CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E0439B1B957CFD00151CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E0439D1B957CFD00151CFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E0439E1B957CFD00151CFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0E043A61B957CFD00151CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0E043AF1B957CFD00151CFA /* GitHubClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E043B41B957CFD00151CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E043B51B957CFD00151CFA /* GitHubClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubClientTests.m; sourceTree = "<group>"; };
+		D0E043CC1B95878200151CFA /* ZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarController.h; sourceTree = "<group>"; };
+		D0E043CD1B95878200151CFA /* ZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarController.m; sourceTree = "<group>"; };
+		D0E043D21B9587EE00151CFA /* ZLRepositoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRepositoryController.h; sourceTree = "<group>"; };
+		D0E043D31B9587EE00151CFA /* ZLRepositoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRepositoryController.m; sourceTree = "<group>"; };
+		D0E043D51B9587FF00151CFA /* ZLMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMessageController.h; sourceTree = "<group>"; };
+		D0E043D61B9587FF00151CFA /* ZLMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMessageController.m; sourceTree = "<group>"; };
+		D0E043D81B958C5700151CFA /* ZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNavigationController.h; sourceTree = "<group>"; };
+		D0E043D91B958C5700151CFA /* ZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNavigationController.m; sourceTree = "<group>"; };
+		F520589957CA56F308A2556A /* Pods-GitHubClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E043931B957CFD00151CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CB30886527133997ABB50C /* libPods-GitHubClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E043AC1B957CFD00151CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616B8D7CEDB83011434D7407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD49D095752B74C31D7F5F /* Pods-GitHubClient.debug.xcconfig */,
+				F520589957CA56F308A2556A /* Pods-GitHubClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		741E8940A3EC02A126AD3A57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5118D3D15CC4026C0F4254 /* libPods-GitHubClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D053593D1B9FC24A00B9A9F9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D053593E1B9FC24A00B9A9F9 /* MBProgressHUD+MJ.h */,
+				D053593F1B9FC24A00B9A9F9 /* MBProgressHUD+MJ.m */,
+				D05359401B9FC24A00B9A9F9 /* MBProgressHUD.bundle */,
+				D05359411B9FC24A00B9A9F9 /* MBProgressHUD.h */,
+				D05359421B9FC24A00B9A9F9 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D09D946A1B95A3420029F83F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D09D946B1B95A3420029F83F /* ZLUserController.h */,
+				D09D946C1B95A3420029F83F /* ZLUserController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D09D946D1B95A3420029F83F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D09D94701B95A35E0029F83F /* ZLUser.h */,
+				D09D94711B95A35E0029F83F /* ZLUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D09D946E1B95A3420029F83F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D09D94961B96E2C20029F83F /* ZLUserCell.h */,
+				D09D94971B96E2C20029F83F /* ZLUserCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D09D94731B9687DA0029F83F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1B4B81B993B940027E66F /* Readme.md */,
+				D09D94741B9688110029F83F /* ZLTableView.h */,
+				D09D94751B9688110029F83F /* ZLTableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		D09D94991B96E8930029F83F /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				D09D949A1B96E8930029F83F /* Category */,
+				D09D949B1B96E8930029F83F /* Const */,
+				D09D949C1B96E8930029F83F /* DataBase */,
+				D09D949D1B96E8930029F83F /* Macros */,
+				D09D949E1B96E8930029F83F /* Network */,
+				D09D949F1B96E8930029F83F /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		D09D949A1B96E8930029F83F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D06FA51C1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.h */,
+				D06FA51D1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D09D949B1B96E8930029F83F /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				D09D94A01B96E9180029F83F /* ZLTableViewConst.h */,
+				D09D94A11B96E9180029F83F /* ZLTableViewConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		D09D949C1B96E8930029F83F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		D09D949D1B96E8930029F83F /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D09D949E1B96E8930029F83F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3717A1B9C122D00F5E930 /* ZLURI.h */,
+				D0B371701B9C03FE00F5E930 /* ZLNetwork.h */,
+				D0B371711B9C03FE00F5E930 /* ZLNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D09D949F1B96E8930029F83F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D09D94A91B97B92C0029F83F /* Singleton.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D09D94AA1B97E47A0029F83F /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				D053593D1B9FC24A00B9A9F9 /* MBProgressHUD */,
+				D09D94AB1B97E48A0029F83F /* Log */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D09D94AB1B97E48A0029F83F /* Log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		D0E0438D1B957CFC00151CFA = {
+			isa = PBXGroup;
+			children = (
+				D0E043981B957CFD00151CFA /* GitHubClient */,
+				D0E043B21B957CFD00151CFA /* GitHubClientTests */,
+				D0E043971B957CFD00151CFA /* Products */,
+				616B8D7CEDB83011434D7407 /* Pods */,
+				741E8940A3EC02A126AD3A57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E043971B957CFD00151CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043961B957CFD00151CFA /* GitHubClient.app */,
+				D0E043AF1B957CFD00151CFA /* GitHubClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E043981B957CFD00151CFA /* GitHubClient */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043C21B9583EC00151CFA /* Shell */,
+				D09D94991B96E8930029F83F /* Expand */,
+				D09D94AA1B97E47A0029F83F /* Vender */,
+				D0E0439D1B957CFD00151CFA /* AppDelegate.h */,
+				D0E0439E1B957CFD00151CFA /* AppDelegate.m */,
+				D0E043A61B957CFD00151CFA /* Images.xcassets */,
+				D0E043991B957CFD00151CFA /* Supporting Files */,
+			);
+			path = GitHubClient;
+			sourceTree = "<group>";
+		};
+		D0E043991B957CFD00151CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09D94B01B97E9CE0029F83F /* GitHubClient-Prefix.pch */,
+				D0E0439A1B957CFD00151CFA /* Info.plist */,
+				D0E0439B1B957CFD00151CFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E043B21B957CFD00151CFA /* GitHubClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043B51B957CFD00151CFA /* GitHubClientTests.m */,
+				D0E043B31B957CFD00151CFA /* Supporting Files */,
+			);
+			path = GitHubClientTests;
+			sourceTree = "<group>";
+		};
+		D0E043B31B957CFD00151CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043B41B957CFD00151CFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E043C21B9583EC00151CFA /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043C51B9583EC00151CFA /* User */,
+				D0E043C41B9583EC00151CFA /* Repository */,
+				D0E043C31B9583EC00151CFA /* Message */,
+				D0E043C61B95845F00151CFA /* Oher */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		D0E043C31B9583EC00151CFA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043D51B9587FF00151CFA /* ZLMessageController.h */,
+				D0E043D61B9587FF00151CFA /* ZLMessageController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		D0E043C41B9583EC00151CFA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043D21B9587EE00151CFA /* ZLRepositoryController.h */,
+				D0E043D31B9587EE00151CFA /* ZLRepositoryController.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D0E043C51B9583EC00151CFA /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D09D946A1B95A3420029F83F /* Controller */,
+				D09D946D1B95A3420029F83F /* Model */,
+				D09D946E1B95A3420029F83F /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D0E043C61B95845F00151CFA /* Oher */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043C81B9584BF00151CFA /* TabBar */,
+				D0E043C71B9584BF00151CFA /* Navigation */,
+				D09D94731B9687DA0029F83F /* TableView */,
+			);
+			path = Oher;
+			sourceTree = "<group>";
+		};
+		D0E043C71B9584BF00151CFA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043D81B958C5700151CFA /* ZLNavigationController.h */,
+				D0E043D91B958C5700151CFA /* ZLNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D0E043C81B9584BF00151CFA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0E043CC1B95878200151CFA /* ZLTabBarController.h */,
+				D0E043CD1B95878200151CFA /* ZLTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E043951B957CFD00151CFA /* GitHubClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E043B91B957CFD00151CFA /* Build configuration list for PBXNativeTarget "GitHubClient" */;
+			buildPhases = (
+				1DD118FD8D2DF29AB1B083D0 /* Check Pods Manifest.lock */,
+				D0E043921B957CFD00151CFA /* Sources */,
+				D0E043931B957CFD00151CFA /* Frameworks */,
+				D0E043941B957CFD00151CFA /* Resources */,
+				26754B3AA28AD38D5D53B0E4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubClient;
+			productName = GitHubClient;
+			productReference = D0E043961B957CFD00151CFA /* GitHubClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E043AE1B957CFD00151CFA /* GitHubClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E043BC1B957CFD00151CFA /* Build configuration list for PBXNativeTarget "GitHubClientTests" */;
+			buildPhases = (
+				D0E043AB1B957CFD00151CFA /* Sources */,
+				D0E043AC1B957CFD00151CFA /* Frameworks */,
+				D0E043AD1B957CFD00151CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E043B11B957CFD00151CFA /* PBXTargetDependency */,
+			);
+			name = GitHubClientTests;
+			productName = GitHubClientTests;
+			productReference = D0E043AF1B957CFD00151CFA /* GitHubClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E0438E1B957CFC00151CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZL;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = chinasofti;
+				TargetAttributes = {
+					D0E043951B957CFD00151CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D0E043AE1B957CFD00151CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D0E043951B957CFD00151CFA;
+					};
+				};
+			};
+			buildConfigurationList = D0E043911B957CFC00151CFA /* Build configuration list for PBXProject "GitHubClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E0438D1B957CFC00151CFA;
+			productRefGroup = D0E043971B957CFD00151CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E043951B957CFD00151CFA /* GitHubClient */,
+				D0E043AE1B957CFD00151CFA /* GitHubClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E043941B957CFD00151CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E043A71B957CFD00151CFA /* Images.xcassets in Resources */,
+				D05359441B9FC24A00B9A9F9 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E043AD1B957CFD00151CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DD118FD8D2DF29AB1B083D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26754B3AA28AD38D5D53B0E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E043921B957CFD00151CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09D94721B95A35E0029F83F /* ZLUser.m in Sources */,
+				D0E0439F1B957CFD00151CFA /* AppDelegate.m in Sources */,
+				D06FA51E1B9D8B9A006B8A2D /* NSObject+ZLSwizzle.m in Sources */,
+				D0B371721B9C03FE00F5E930 /* ZLNetwork.m in Sources */,
+				D05359431B9FC24A00B9A9F9 /* MBProgressHUD+MJ.m in Sources */,
+				D09D94981B96E2C20029F83F /* ZLUserCell.m in Sources */,
+				D0E043D41B9587EE00151CFA /* ZLRepositoryController.m in Sources */,
+				D05359451B9FC24A00B9A9F9 /* MBProgressHUD.m in Sources */,
+				D0E043DA1B958C5700151CFA /* ZLNavigationController.m in Sources */,
+				D0E0439C1B957CFD00151CFA /* main.m in Sources */,
+				D0E043CE1B95878200151CFA /* ZLTabBarController.m in Sources */,
+				D09D94761B9688110029F83F /* ZLTableView.m in Sources */,
+				D09D946F1B95A3420029F83F /* ZLUserController.m in Sources */,
+				D0E043D71B9587FF00151CFA /* ZLMessageController.m in Sources */,
+				D09D94A21B96E9180029F83F /* ZLTableViewConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E043AB1B957CFD00151CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E043B61B957CFD00151CFA /* GitHubClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E043B11B957CFD00151CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E043951B957CFD00151CFA /* GitHubClient */;
+			targetProxy = D0E043B01B957CFD00151CFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0E043B71B957CFD00151CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E043B81B957CFD00151CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E043BA1B957CFD00151CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCD49D095752B74C31D7F5F /* Pods-GitHubClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/GitHubClient-Prefix.pch";
+				INFOPLIST_FILE = GitHubClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		D0E043BB1B957CFD00151CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F520589957CA56F308A2556A /* Pods-GitHubClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/GitHubClient-Prefix.pch";
+				INFOPLIST_FILE = GitHubClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		D0E043BD1B957CFD00151CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GitHubClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubClient.app/GitHubClient";
+			};
+			name = Debug;
+		};
+		D0E043BE1B957CFD00151CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GitHubClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubClient.app/GitHubClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E043911B957CFC00151CFA /* Build configuration list for PBXProject "GitHubClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E043B71B957CFD00151CFA /* Debug */,
+				D0E043B81B957CFD00151CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E043B91B957CFD00151CFA /* Build configuration list for PBXNativeTarget "GitHubClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E043BA1B957CFD00151CFA /* Debug */,
+				D0E043BB1B957CFD00151CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E043BC1B957CFD00151CFA /* Build configuration list for PBXNativeTarget "GitHubClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E043BD1B957CFD00151CFA /* Debug */,
+				D0E043BE1B957CFD00151CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E0438E1B957CFC00151CFA /* Project object */;
+}

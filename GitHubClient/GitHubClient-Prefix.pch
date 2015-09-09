@@ -1,0 +1,24 @@
+//
+//  GitHubClient-Prefix.pch
+//  GitHubClient
+//
+//  Created by account on 15/9/3.
+//  Copyright (c) 2015年 chinasofti. All rights reserved.
+//
+
+#ifndef GitHubClient_GitHubClient_Prefix_pch
+#define GitHubClient_GitHubClient_Prefix_pch
+
+/**
+ *  日志相关
+ #字符串中包含宏参数,##两个语言符号组合成单个语言符号,\连接字符串
+ >> 2015-05-05 17:04:24.649 [st_log]  STChatViewController.m:2188 -[STChatViewController selectEmotion:] :Pressed button
+ */
+#ifdef DEBUG//处于开发阶段
+#define ZLLog(format,...) NSLog((@" [%@] %@:%d %s\n>> "format),@"ZLLog",[[NSString stringWithUTF8String:__FILE__] lastPathComponent],__LINE__,__FUNCTION__,##__VA_ARGS__)
+#else//处于发布阶段
+#define ZLLog(...)
+#endif
+
+#import "ZLNetwork.h"
+#endif
